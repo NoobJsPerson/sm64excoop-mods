@@ -1,5 +1,6 @@
 -- name: No A Button Challenge
 -- description: Disables the A Button
+
 ------		Globals		------
 welcomeprompt = 1
 
@@ -15,8 +16,8 @@ function welcome(m)
         end
     end
     if (welcomeprompt) == 1 then
-        djui_hud_set_resolution(RESOLUTION_N64);
-        djui_hud_render_texture(texwelcome, 105, 14, .4, .4)
+        djui_hud_set_resolution(RESOLUTION_DJUI);
+        djui_hud_render_texture(texwelcome, 425, 30, 1, 1)
     end
 end
 
